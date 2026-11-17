@@ -101,7 +101,7 @@ def build_deck():
         (0.58, 3.28), (4.52, 3.28), (8.46, 3.28),
     ]
     for (title, body, accent), (x, y) in zip(cards, positions):
-        add_card(slide, x, y, 3.68, 1.22, title, body, accent)
+        add_card(slide, x, y, 3.68, 1.30, title, body, accent)
 
     band = slide.shapes.add_shape(
         MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.58), Inches(4.78), Inches(12.0), Inches(0.72)
